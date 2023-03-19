@@ -1,10 +1,13 @@
-import "./App.css";
-import Login from "./container/Login";
+import React from "react";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Login />
+      <Signup />
     </div>
   );
 }
